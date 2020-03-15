@@ -10,7 +10,7 @@ const temperatureInfo = document.createElement('div');
 const weatherInfo = document.createElement('div');
 const api = {
     base: 'http://api.openweathermap.org/data/2.5/',
-    key: '0c0d5435efdaac81506fa1b25201c82e'
+    key: '/*Your api key here*/'
 }
 
 document.addEventListener('DOMContentLoaded', function() {
