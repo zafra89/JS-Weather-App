@@ -1,0 +1,56 @@
+html {
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+#weather-app {
+    font-size: 80px;
+}
+
+#search-bar {
+    width: 500px;
+    height: 35px;
+    font-size: 25px;
+    border-radius: 50px;
+    border: 1px solid gray;
+    padding-left: 12px;
+}
+
+#weather-container {
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#city-name {
+    font-size: 60px;
+    margin-bottom: -20px;
+}
+
+#city-temperature {
+    font-size: 40px;
+    margin-bottom: -30px;
+}
+
+#city-weather {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.hide{
+    display: none;
+}
+
+button {
+    height: 38px;
+    width: 90px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    color: gray;
+}
+
+button:hover {
+    background-color: rgb(218, 218, 218);
+    color: black;
+}
